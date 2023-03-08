@@ -9,7 +9,7 @@ main_branch: main
 # In this section we map your projects branches to DBT targets asd
 
 branch_deployments:
-    main : cs_prod
+    main : cs_production
     test : cs_test
     dev  : cs_dev
     some_new_feature_x : cs_dev
