@@ -7,7 +7,7 @@ customer_service_analytics:
       schema: cs_dev
       password: ''
     
-    cs-test:
+    cs_test:
       type: clickhouse
       schema: cs_test
       password: ''
