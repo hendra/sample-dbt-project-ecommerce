@@ -1,0 +1,21 @@
+customer_service_analytics:
+
+  target: cs_dev
+  outputs:
+    cs_dev:
+      type: clickhouse
+      schema: cs_dev
+      password: ''
+    
+    cs-test:
+      type: clickhouse
+      schema: cs_test
+      password: ''
+
+    cs_production:
+      type: clickhouse
+      schema: cs_production
+      password: ''
+
+    
+    
