@@ -13,6 +13,6 @@ branch_deployments:
     test : cs_test
     dev  : cs_dev
     some_new_feature_x : cs_dev
-    a_third_model : cs_dev
+
 
 run_schedule: 0 0 0 0 0 0 0 0 0 0
