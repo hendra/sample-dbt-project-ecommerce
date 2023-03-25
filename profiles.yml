@@ -5,16 +5,19 @@ customer_service_analytics:
     cs_dev:
       type: clickhouse
       schema: cs_dev
+      host: 35.189.109.115
       password: ''
     
     cs_test:
       type: clickhouse
       schema: cs_test
+      host: 35.189.109.115
       password: ''
 
     cs_production:
       type: clickhouse
       schema: cs_production
+      host: 35.189.109.115
       password: ''
 
     
